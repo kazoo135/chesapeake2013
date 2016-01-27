@@ -1,0 +1,55 @@
+{
+	"crew":[{
+		"tile": "Captain",
+		"name": "Joseph Reiser",
+		"shortname": "Joseph_Reiser",
+		"summary": "Some Text Goes Here ",
+		"description": "Some Other Text Goes Here ",
+		"photos": []
+		},{
+			"tile":"First Mate",
+			"name": "Annie Yuen",
+			"shortname":"Annie_Yuen",
+			"summary": "Some Text Goes Here ",
+			"description": "Some Other Text Goes Here ",
+			"photos": []
+		},{
+			"title": "Second Mate",
+			"name": "Tim Miller",
+			"shortname": "Tim_Miller",
+			"summary": "Some Text Goes Here ",
+			"description": "Some Other Text Goes Here ",
+			"photos": []
+		},{
+			"title": "Second Mate",
+			"name": "Mark Caruso",
+			"shortname": "Mark_Caruso",
+			"summary": "Some Text Goes here ",
+			"description": "Some Other Text Goes here ",
+			"photos":[ ]
+		}],
+
+	"social":[{
+		"shortname": "twitter",
+		"img" : "/images/socialmedia/twitter.png ",
+		"url": "http://www.twitter.com"
+		}, {
+			"shortname": "meetup",
+			"img": "/images/socialmedia/meetup.png",
+			"url": "http://www.meetup.com"
+			},{
+				"shortname":"facebook",
+				"img": "/images/socialmedia/facebook.png",
+				"url": "http://www.facebook.com"
+			}],
+	"details" : {
+			"startDate": "Monday, October 10 2013",
+			"endDate" : "Friday, October 24 2013 ",
+			"where":{
+				"name": "Chesapeake Bay",
+				"img": " Map",
+				"about":"https://en.wikipedia.org/wiki/Chesapeake_Bay"
+			}
+		}
+
+	}

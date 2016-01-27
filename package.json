@@ -1,0 +1,26 @@
+{
+  "name": "chesapeake2013",
+  "version": "1.0.0",
+  "description": "A site dedicated to sailing on the chesapeake",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sailing",
+    "crew",
+    "Reiser",
+    "Yuen",
+    "Chesapeake",
+    "bay",
+    "Caruso"
+  ],
+  "author": "Mark Caruso",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "debug": "^2.2.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.4"
+  }
+}
