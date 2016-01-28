@@ -6,17 +6,17 @@
 </head>
 <body>
 <% include partials/template/header.ejs %>
+<% include partials/content/crewlist.ejs %>
 	<section class="layout">
 		<div class="primary">
-			<div>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sem tellus. Maecenas et dictum dui, eu maximus magna. Nulla facilisi. Nullam tristique convallis justo. Integer neque lacus, semper fringilla neque id, tempor mattis urna. Phasellus tincidunt magna eu massa facilisis tempor. Integer sollicitudin arcu dui, sed aliquam nibh porttitor sit amet. Proin nec est erat.
-			</div>
-
+		<% include partials/content/whoarewe.ejs %>
+		<% include partials/content/getsailing.ejs %>
+		<!-- Include something like get busy -->
 		</div><!-- primary -->
 		<aside class="secondary">
 			<div>
- In eget rhoncus odio, at malesuada elit. Maecenas suscipit bibendum porttitor. Nulla varius massa et elit tristique placerat. Donec sollicitudin venenatis dictum. Pellentesque mattis fermentum mi, vitae pretium turpis molestie at. Integer eleifend, mauris ac vehicula aliquet, nibh turpis aliquam augue, nec ultricies arcu nibh at nisi.
-			</div>
+			<% include partials/content/nextsail.ejs %>
+			<% include partials/content/photolist.ejs %>
 		</aside><!-- secondary -->
 	</section>
 <% include  partials/template/footer.ejs %>

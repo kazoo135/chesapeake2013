@@ -289,7 +289,14 @@ header .navigation ul.nav li:hover a {
   }
   header .hero .branding {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
+   
+  }
+
+    header .hero .branding a{
+      text-decoration: none; 
+      font-size: 2.5em;
+      font-family: Bree Serif, serif;
   }
 
   .home .speakerslist {
