@@ -22,6 +22,7 @@ router.get('/crew', function(req, res){
 	var myPhotos = [];
 	var myCrew = [];
 	myCrew = appdata.crew;
+	
 	appdata.crew.forEach(function(item){
 		myPhotos = myPhotos.concat(item.photos);
 	});
@@ -34,16 +35,20 @@ router.get('/crew', function(req, res){
 
 router.get('/crew/:crewId', function(req, res){
 	var myPhotos = [];
+	var myCrew = [];
+
 	appdata.crew.forEach(function(item){
 
 		if(item.shortname == req.params.crewId){
+		myCrew.push(item);
 		myPhotos = myPhotos.concat(item.photos);			
 		}
 
 	});
 	res.render('crew', {
 		title: 'Crew',
-		photos: myPhotos
+		photos: myPhotos,
+		crew: myCrew; 
 
 	});
 });
