@@ -6,7 +6,17 @@
 </head>
 <body>
 <% include partials/template/header.ejs %>
-<h1>Welcome to the <%= title %> Page</h1>
+<% include partials/content/crewlist.ejs %>
+	<section class="layout">
+		<div class="primary">
+			<% include partials/content/crewlist.ejs %>
+		</div><!-- primary -->
+		<aside class="secondary">
+			<% include partials/content/nextsail.ejs %>
+			<% include partials/content/photolist.ejs %>
+		</aside><!-- secondary -->
+	</section><!-- layout -->
 <% include  partials/template/footer.ejs %>
+<% include partials/template/jsdefaults.ejs %>
 </body>
 </html>
