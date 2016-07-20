@@ -46,9 +46,8 @@
 			"endDate" : "Friday, October 24 2016 ",
 			"where":{
 				"name": "Chesapeake Bay",
-				"img": " Map",
+				"img": "/images/misc/helper_4.jpg",
 				"about":"https://en.wikipedia.org/wiki/Chesapeake_Bay"
 			}
 		}
-
-	}
+}

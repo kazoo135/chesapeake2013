@@ -195,11 +195,11 @@ footer {
   cursor: pointer;
 }
 
-.nextmeeting {
+.nextsail {
   overflow: hidden;
   *zoom: 1;
 }
-.nextmeeting img {
+.nextsail img {
   width: 30%;
   max-width: 130px;
   -webkit-border-radius: 10px;

@@ -1,6 +1,11 @@
 <article class="nextsail">
 	<h1>Next Trip</h1>
-	<p>Start Date: <%= appdata.details.startDate %></p>
-	<p>End Date: <%= appdata.details.endDate %> </p>
-	<p>Location: <%= appdata.details.where.name %></p>
+	
+	<p><img src="<%= appdata.details.where.img %>">
+	Start Date: <%= appdata.details.startDate %>
+	End Date: <%= appdata.details.endDate %>
+	Location: <%= appdata.details.where.name %>
+	</p>
+	Follow the Crew!
+	<% include socialmedia.ejs %>
 </article>
