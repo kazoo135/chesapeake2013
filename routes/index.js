@@ -14,7 +14,8 @@ router.get('/', function(req, res){
 	res.render('index', {
 		title: 'Home',
 		photos: myPhotos,
-		crew: myCrew
+		crew: myCrew,
+		page: 'home'
 	});
 });
 
@@ -30,7 +31,8 @@ router.get('/crew', function(req, res){
 	res.render('crew', {
 		title: 'Crew',
 		photos: myPhotos,
-		crew: myCrew
+		crew: myCrew,
+		page: 'crewList'
 	});
 });
 
@@ -49,7 +51,8 @@ router.get('/crew/:crewId', function(req, res){
 	res.render('crew', {
 		title: 'Crew',
 		photos: myPhotos,
-		crew: myCrew 
+		crew: myCrew,
+		page: 'crewDetails' 
 	});
 });
 

@@ -1,8 +1,8 @@
-<article >
+<article class="crewlist" >
 	<section class="layout">
 		<div class="crew">
 		<% crew.forEach(function(item){ %>
-		<article>
+		<article class="artist group">
 			<h3><%= item.title %> <span class="small">
 			<a href="/crew/<%= item.shortname %>"><%= item.name %></a>
 		</span></h3>
@@ -10,6 +10,14 @@
 			<a href="/crew/<%= item.shortname %>">
 				<img src="/images/crew/<%= item.shortname %>_tn.jpg">
 			</a>
+		
+		<% if( page != 'home'){ %>
+			<% if(page === 'crewList'){ %>
+				<%= item.summary %>
+		<% }else{ %>
+			<%= item.description %>
+		<% } %>
+	<% } %>
 		</p>
 		</article>
 			<% }) %>
