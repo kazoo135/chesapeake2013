@@ -1,13 +1,13 @@
 {
 	"crew":[{
-		"tile": "Captain",
+		"title": "Captain",
 		"name": "Joseph Reiser",
 		"shortname": "Joseph_Reiser",
 		"summary": "Composer, Dalcroze Educator, and the crew captain, Joe, a native New Yorker now lives with his lovely wife Annie in Hong Kong.",
 		"description": "Captain Joe started sailing as a teenager. He was introduced to the art by his uncle whoe taught him the ropes on the Hudson and later on the great Chesapeake Bay. He routinely takes the time to take a trip annually and he always puts together an outrageous and eccletic crew.",
 		"photos": ["Joseph_Reiser_01_tn.jpg", "Joseph_Reiser_02_tn.jpg", "Joseph_Reiser_04_tn.jpg"]
 		},{
-			"tile":"First Mate",
+			"title":"First Mate",
 			"name": "Annie Yuen",
 			"shortname":"Annie_Yuen",
 			"summary": "Born in Hong Kong a Pianist and Piano Teacher, Annie now lives with her old man Joeon Maui Wah island. A 30 minute Ferry boat from Hong Kong's central island",

@@ -7,7 +7,7 @@ router.get('/', function(req, res){
 	var myPhotos = [];
 	var myCrew = [];
 	myCrew = appdata.crew;
-	
+
 	appdata.crew.forEach(function(item){
 		myPhotos = myPhotos.concat(item.photos);
 	})
@@ -40,7 +40,7 @@ router.get('/crew/:crewId', function(req, res){
 
 	appdata.crew.forEach(function(item){
 
-		if(item.shortname == req.params.crewId){
+		if(item.shortname == req.params.crewId ){
 		myCrew.push(item);
 		myPhotos = myPhotos.concat(item.photos);			
 		}
