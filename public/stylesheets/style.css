@@ -342,9 +342,9 @@ header .navigation ul.nav li:hover a {
     text-decoration: underline;
   }
 
-  .home .crewlist img.speaker {
+  .home .crewlist img.crew {
     float: none;
-    width: 40%;
+    width: 30%;
     max-width: 170px;
     margin: 0 auto;
     -webkit-border-radius: 50%;
@@ -376,13 +376,13 @@ header .navigation ul.nav li:hover a {
   }
 
   .home .crewlist .artist {
-    width: 32.20339%;
+    width: 24.20339%;
     float: left;
-    margin-right: 1.69492%;
+    margin-right: 0.69492%;
   }
 
   .home .crewlist .artist:nth-of-type(3) {
-    width: 32.20339%;
+    width: 24.20339%;
     float: right;
     margin-right: 0;
   }
@@ -425,4 +425,9 @@ header .navigation ul.nav li:hover a {
     padding-right: 0;
   }
 }
+
+article.artist {
+  padding-bottom: 65px; 
+}
+
 
