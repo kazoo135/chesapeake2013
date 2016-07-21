@@ -143,13 +143,13 @@ footer {
   padding-bottom: 100px;
 }
 
-.speakers h3 {
+.crew h3 {
   padding-top: 10px;
   padding-bottom: 5px;
   border-bottom: 1px dotted #819090;
   margin-bottom: 5px;
 }
-.speakers img {
+.crew img {
   width: 120px;
   float: left;
   -webkit-border-radius: 10px;
@@ -299,7 +299,7 @@ header .navigation ul.nav li:hover a {
       font-family: Bree Serif, serif;
   }
 
-  .home .speakerslist {
+  .home .crewlist {
     text-align: center;
     background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d3340), color-stop(100%, #042029));
     background: -webkit-linear-gradient(top, #0d3340, #042029);
@@ -311,38 +311,38 @@ header .navigation ul.nav li:hover a {
     padding-bottom: 10px;
   }
 
-  .home .speakerslist h1, .home .speakerslist h2, .home .speakerslist h3, .home .speakerslist h4, .home .speakerslist h5, .home .speakerslist h6 {
+  .home .crewlist h1, .home .crewlist h2, .home .crewlist h3, .home .crewlist h4, .home .crewlist h5, .home .crewlist h6 {
     text-shadow: none;
     border-bottom: none !important;
   }
 
-  .home .speakerslist h1 {
+  .home .crewlist h1 {
     font-size: 2.6rem;
     line-height: 1em;
     color: #738a05;
   }
 
-  .home .speakerslist h3 {
+  .home .crewlist h3 {
     color: #d69a08;
     line-height: .9em;
   }
 
-  .home .speakerslist .small {
+  .home .crewlist .small {
     padding-top: .4em !important;
     line-height: 1em;
     color: #2390b3;
   }
 
-  .home .speakerslist .small a {
+  .home .crewlist .small a {
     color: #2390b3;
     text-decoration: none;
   }
 
-  .home .speakerslist .small a:hover {
+  .home .crewlist .small a:hover {
     text-decoration: underline;
   }
 
-  .home .speakerslist img.speaker {
+  .home .crewlist img.speaker {
     float: none;
     width: 40%;
     max-width: 170px;
@@ -354,11 +354,11 @@ header .navigation ul.nav li:hover a {
     border-radius: 50%;
   }
 
-  .home .speakerslist .small {
+  .home .crewlist .small {
     display: block;
   }
 
-  .home .speakerslist p:nth-of-type(2) {
+  .home .crewlist p:nth-of-type(2) {
     font-weight: 200 !important;
     text-align: left;
     font-size: .8em;
@@ -370,18 +370,18 @@ header .navigation ul.nav li:hover a {
     opacity: 0;
   }
 
-  .home .speakerslist:hover p:nth-of-type(2) {
+  .home .crewlist:hover p:nth-of-type(2) {
     line-height: 1.5em;
     opacity: 1;
   }
 
-  .home .speakerslist .artist {
+  .home .crewlist .artist {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  .home .speakerslist .artist:nth-of-type(3) {
+  .home .crewlist .artist:nth-of-type(3) {
     width: 32.20339%;
     float: right;
     margin-right: 0;
@@ -389,7 +389,7 @@ header .navigation ul.nav li:hover a {
 }
 
 @media (max-width: 47em) {
-  .home .speakerslist {
+  .home .crewlist {
     display: none;
   }
 }

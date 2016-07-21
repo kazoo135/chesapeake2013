@@ -1,3 +1,14 @@
 <article class="crewlist">
-
+	<section class="layout">
+		<div class="crew">
+			<% crew.forEach(function(item)){ %>
+		<article class="crew group">
+				<h3><%= item.title %>
+				<span class="small">with
+				<%= item.name %>
+				</span></h3>
+		</article>
+		<% } %> 
+		</div>
+	</section><!--layout -->
 </article><!-- article -->
