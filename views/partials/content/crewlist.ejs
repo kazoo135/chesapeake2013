@@ -1,14 +1,18 @@
-<article class="crewlist">
+<article >
 	<section class="layout">
 		<div class="crew">
-			<% crew.forEach(function(item)){ %>
-		<article class="crew group">
-				<h3><%= item.title %>
-				<span class="small">with
-				<%= item.name %>
-				</span></h3>
+		<% crew.forEach(function(item){ %>
+		<article>
+			<h3><%= item.title %> <span class="small">
+			<a href="/crew/<%= item.shortname %>"><%= item.name %></a>
+		</span></h3>
+		<p>
+			<a href="/crew/<%= item.shortname %>">
+				<img src="/images/crew/<%= item.shortname %>_tn.jpg">
+			</a>
+		</p>
 		</article>
-		<% } %> 
+			<% }) %>
 		</div>
 	</section><!--layout -->
 </article><!-- article -->
