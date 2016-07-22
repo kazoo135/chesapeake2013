@@ -3,29 +3,29 @@
 		"title": "Captain",
 		"name": "Joseph Reiser",
 		"shortname": "Joseph_Reiser",
-		"summary": "Composer, Dalcroze Educator, and the crew captain, Joe, a native New Yorker now lives with his lovely wife Annie in Hong Kong.",
-		"description": "Captain Joe started sailing as a teenager. He was introduced to the art by his uncle whoe taught him the ropes on the Hudson and later on the great Chesapeake Bay. He routinely takes the time to take a trip annually and he always puts together an outrageous and eccletic crew.",
+		"summary": "<p>Composer, Dalcroze Educator, and the crew captain, Joe, a native New Yorker now lives with his lovely wife Annie in Hong Kong.",
+		"description": "Captain Joe started sailing as a teenager. He was introduced to the art by his uncle who taught him the ropes on the Hudson and later on the great Chesapeake Bay. He routinely takes the time to take a trip annually and he always puts together an outrageous and eccletic crew.</p><p>When he isn’t planning his next sailing expedition Captain Joe is an active composer and music teacher. His compositions range from small ensemble work to operas of varying lengths. Recently he has completed a set of Chinese folk songs for a Brass Quintet and is completing an Oratorio based on the life and times of the Wright Brothers. As a music educator much of the work Joe is involved in comes out of the Dalcroze school with a focus on training piano teachers. He has authored several methods on piano technique and pedagogy and is currently developing a new method for new learners young and old. </p>",
 		"photos": ["Joseph_Reiser_01_tn.jpg", "Joseph_Reiser_02_tn.jpg", "Joseph_Reiser_04_tn.jpg"]
 		},{
 			"title":"First Mate",
 			"name": "Annie Yuen",
 			"shortname":"Annie_Yuen",
 			"summary": "Born in Hong Kong a Pianist and Piano Teacher, Annie now lives with her old man Joeon Maui Wah island. A 30 minute Ferry boat from Hong Kong's central island",
-			"description": "Annie, after a previous career in the thriving fashion industry of Hong Kong, decided to pursue her passion of music making. She continued her studies in piano and piano pedogoy as well as Dalcroze. Annie now has a thriving business as a private piano teacher in Hong Kong.",
+			"description": "<p>Annie, after a previous career in the thriving fashion industry of Hong Kong, decided to pursue her passion for music making. She continued her studies in piano and piano pedogoy  at home in HK as well as abroad in Germany. She too is an advocate and practitioner of Dalcroze. Currently Annie has a thriving business as a private piano teacher in Hong Kong. She also acts as administrator for the many workshops her husband Joe facilities.</p><p>Most recently Annie has started to run a joint business venture between herself and her husband. She is managing all aspects of the production and marketing of there new piano method for young learners. As a little aside, Annie is a master of the iPhone camera and video applications. Her collection of pictures and videos goes beyond the cloud.</p>",
 			"photos": ["Annie_Yuen_01_tn.jpg", "Annie_Yuen_02_tn.jpg",  "Annie_Yuen_03_tn.jpg"]
 		},{
 			"title": "Second Mate",
 			"name": "Tim Miller",
 			"shortname": "Tim_Miller",
 			"summary": "Writer and Foodie, Tim Miller joined the crew as second mate after traveling from New Jersey to Baltimore on Amtrack.",
-			"description": "As a writer, Tim is best known for his work on The Wright Brother, A Space Oddessy. He has a wonderful eye for detail and historical accuracy as well as making a mean plate of pasta.",
+			"description": "<p>As a writer, Tim is best known for his work on ‘The Wright Brother, A Space Odyssey’. He has a wonderful eye for detail and historical accuracy as well as making a mean plate of pasta.</p><p>With his focus consistently on his writing Tim earns his keep by working as a server at some of New Jersery’s finest restaurants. Though his palette is broad he is partial to the cuisine from Southern Italy and Northern France. Both of these allow him to assist his customers in making the best wine pairings for their meal.</p>",
 			"photos": ["Tim_Miller_01_tn.jpg","Tim_Miller_02_tn.jpg", "Tim_Miller_04_tn.jpg"]
 		},{
 			"title": "Second Mate",
 			"name": "Mark Caruso",
 			"shortname": "Mark_Caruso",
 			"summary": "Mark weighed in at 180lbs and was the second second mate on the trip.",
-			"description": "Traveling from New York City, Mark joined the crew in port after not having seen captain Joe for more than three years. Mark has spent many years advocating for quality music education in the NYC Public Schools and first met Captain Joe while studying Dalcroze Eurythmics together at the Julliard School.",
+			"description": "<p>Traveling from New York City, Mark joined the crew in port after not having seen Captain Joe for more than three years. Mark has spent many years advocating for quality music education in the NYC Public Schools and first met Captain Joe while studying Dalcroze Eurythmics together at the Julliard School.</p><p>While still an advocate for Dalcroze, Mark has recently decided to pursue his passion for Mathematics and Science by working on yet another degree. This time not in the arts but in Computer Science. He currently spends the majority of his time reading textbooks and technical documents related to coding in a variety of different languages. When he isn’t reading about the topic he is actually doing the work. In fact, this little site is something he cooked up in order to learn alittle about working with NodeJS, Express and the Express templating engine EJS. </p>",
 			"photos":["Mark_Caruso_01_tn.jpg","Mark_Caruso_02_tn.jpg","Mark_Caruso_03_tn.jpg"]
 		}],
 	"social":[{
