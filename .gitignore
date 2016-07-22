@@ -26,4 +26,9 @@ coverage
 benchmarks/graphs
 
 # not images
-public/images/
+public/images
+
+#text docs
+*.txt
+*.doc
+*.docx
