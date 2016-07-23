@@ -56,5 +56,12 @@ router.get('/crew/:crewId', function(req, res){
 	});
 });
 
+router.get('/contact', function(req, res){
+
+	res.render('contact', {
+		title: 'contact us',
+		page:'contact'
+	})
+})
 
 module.exports = router; 

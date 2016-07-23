@@ -4,9 +4,9 @@
 <head>
 <% include  partials/template/head.ejs %>
 </head>
-<body>
+<body class="<%=page %>">
 <% include partials/template/header.ejs %>
-<h1>Welcome to the <%= title %> Page</h1>
+<% include partials/content/contactus.ejs %>
 <% include  partials/template/footer.ejs %>
 </body>
 </html>
