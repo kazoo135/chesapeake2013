@@ -1,6 +1,9 @@
 var express = require('express');
 var router = express.Router();
 var appdata = require('../data.json');
+var bodyParser = require('body-parser');
+
+var urlEncodedParser = bodyParser.urlencoded({extended: true});
 
 /* Get Home Page */
 router.get('/', function(req, res){
@@ -64,14 +67,16 @@ router.get('/contact', function(req, res){
 	})
 })
 
-router.post('/contactForm', function(req, res){
+router.post('/contactForm', urlEncodedParser, function(req, res){
 	var firstname = req.body.firstname;
-	console.log("The firstname is: " + firstname);	
+	var lastname = req.body.lastname;
+
+	console.log("The firstname is: " + firstname + "\n" +
+		"Lastname is: " + lastname );	
 
 	res.render('contactForm', {
 		title: 'Post Reply',
-		page: 'formReply',
-		firstname: 'firstname'
+		page: 'formReply'
 	})
 
 });
