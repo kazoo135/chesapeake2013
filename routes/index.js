@@ -58,10 +58,26 @@ router.get('/crew/:crewId', function(req, res){
 
 router.get('/contact', function(req, res){
 
+	
+
 	res.render('contact', {
 		title: 'contact us',
 		page:'contact'
 	})
 })
+
+router.post('/contactForm', function(req,res){
+	var firstname = req.body.firstname
+	console.log("The firstname is: " + firstname)	
+
+	res.render('/contactForm.ejs', {
+		title: 'Success',
+		page: 'contactForm'
+	});
+
+})
+
+
+
 
 module.exports = router; 
