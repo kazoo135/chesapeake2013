@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var appdata = require('../data.json');
 var bodyParser = require('body-parser');
+var fs = require('fs');
 
 var urlEncodedParser = bodyParser.urlencoded({extended: true});
 
@@ -76,9 +77,11 @@ router.get('/contact', function(req, res){
 router.post('/contactForm', urlEncodedParser, function(req, res){
 	var firstname = req.body.firstname;
 	var lastname = req.body.lastname;
+	var email = req.body.email;
+	var comment = req.body.comments; 
+	var body = firstname + '\n' + lastname + '\n' + email + '\n' + comment;
 
-	console.log("The firstname is: " + firstname + "\n" +
-		"Lastname is: " + lastname );	
+	console.log("The body var contains: \n" + body );	
 
 	res.render('contactForm', {
 		title: 'Post Reply',
