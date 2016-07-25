@@ -60,10 +60,16 @@ router.get('/crew/:crewId', function(req, res){
 });
 
 router.get('/contact', function(req, res){
+	var myPhotos = [];
+	appdata.crew.forEach(function(item){
+		myPhotos = myPhotos.concat(item.photos);
+	})
+
 
 	res.render('contact', {
 		title: 'contact us',
-		page:'contact'
+		page:'contact',
+		photos: myPhotos
 	})
 })
 

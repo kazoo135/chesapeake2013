@@ -6,7 +6,17 @@
 </head>
 <body class="<%=page %>">
 <% include partials/template/header.ejs %>
+<section class="layout">
+	<div class="primary">
 <% include partials/content/contactus.ejs %>
+
+	</div>
+	<aside class="secondary">
+		<% include partials/content/nextsail.ejs %>
+		<% include partials/content/photolist.ejs %>
+	</aside>
+</section>
+
 <% include  partials/template/footer.ejs %>
 </body>
 </html>
