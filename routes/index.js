@@ -77,6 +77,7 @@ router.post('/contactForm', urlEncodedParser, function(req, res){
 	var firstname = req.body.firstname;
 	var lastname = req.body.lastname;
 
+
 	console.log("The firstname is: " + firstname + "\n" +
 		"Lastname is: " + lastname );	
 
