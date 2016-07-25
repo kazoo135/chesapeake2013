@@ -6,25 +6,24 @@
 	<article id="contactus">
 		<h1>If you'd like to <%= title %></h1>
 		<form action="contactForm" method="POST" >
-			<div>
+			<div id="firstname">
 				<label for="firstname">Firstname:</label>
 				<input type="text" name="firstname" >
 			</div>
-			<div>
+			<div id="lastname">
 			<label for="lastname">Lastname:</label>
 			<input type="text" name="lastname" >
 			</div>
-			<div>
+			<div id="email">
 			<label for="email">Email:</label>
-			<input type="text" name="email" >
+			<input type="text" name="email" class="email">
 			</div>
-			<div>
-				<h4>Add a comment</h4>
-				<textarea rows="15" cols="50">Feel free to drop us note along with your contact information.
-				</textarea>
+			<div id="comment">
+				<h3>Add a Comment</h3>
+				<textarea rows="15" cols="50"></textarea>
 			</div>
-			<div>
-			<input type="submit" name="submitBtn" value="Submit">
+			<div id="submit">
+			<button type="submit" name="submitBtn">Submit</button>
 			</div>
 		</form>
 	</article>

@@ -432,3 +432,102 @@ article.artist {
 
 
 /* Contact form styles */
+
+form{
+  position: relative;
+  width:650px;
+  height: 700px;
+}
+
+form h3{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+button, input, textarea{
+  font-family: inherit;
+  font-size: 100%;
+}
+input, textarea{
+  border: none;
+  padding: 0, 10px;
+}
+
+
+ textarea{
+  width:600px;
+  margin: 10px, 0 , 0 , 0;
+  resize:none;
+  overflow: auto;
+
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input{
+  width:300px;
+  margin: 0;
+
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+input[type=text]{
+  margin-top: 20px; 
+}
+
+
+
+button[type=submit]{
+  margin-top: 10px; 
+  margin-left: 150px;
+   width:300px; 
+  cursor: pointer;
+  border: 1px solid #999;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+button:hover, button:focus{
+  outline: none;
+  color: #fff;
+  background: #000;
+}
+
+input.email{
+  margin-left: 35px; 
+}
+
+label{
+  padding-right: 8px;
+}
+
+
+#firstname{
+}
+
+#lastname{
+}
+
+#email{
+  
+
+}
+
+#comment{
+  
+}
+
+#submit{
+ 
+
+}
+
+input:focus, textarea:focus{
+  background: rgb(0,0,0, .1);
+  border-radius: 5px; 
+  outline: none;
+  padding-left: 8px;
+}
