@@ -79,30 +79,75 @@ var counter = 0;
 router.post('/contactForm', urlEncodedParser, function(req, res, next){
 	var firstname = req.body.firstname;
 	var lastname = req.body.lastname;
-
-
-	console.log("The firstname is: " + firstname + "\n" +
-		"Lastname is: " + lastname );	
-
 	var email = req.body.email;
 	var comment = req.body.comments; 
+	var body = "";
 	var body = firstname + '\n' + lastname + '\n' + email + '\n' + comment + '\n';
 	var user = "";
 
-	if(body){
+	
+	if( empty(req.body.email)){
+		console.log(req.body);
+		next('route');	
+
+	}else{
 	counter++;	
  	user += "User: " + counter + '\n' + body;
 	console.log("The body var contains: \n" + user + "The body var is : " + body);	
 	fs.appendFileSync('public/data.txt', user, encoding="utf-8");
+	console.log(req.body);
+		res.render('contactForm', {
+			title: 'Post Reply',
+			page: 'formReply'
+		}); 
 	}
-	
-	res.render('contactForm', {
-		title: 'Post Reply',
-		page: 'formReply',
-		noComment: body
-	}); 
 });
 
+router.post('/contactForm', urlEncodedParser, function(req, res, next){
+	console.log("Form Data is empty");
 
+	res.render('noData', {
+		title:"No Data",
+		page: 'noData'
+	})
+	
+});
 
 module.exports = router; 
+
+//Function for testing if post data is empty
+
+function empty(data)
+{
+  if(typeof(data) == 'number' || typeof(data) == 'boolean')
+  { 
+    return false; 
+  }
+  if(typeof(data) == 'undefined' || data === null)
+  {
+    return true; 
+  }
+  if(typeof(data.length) != 'undefined')
+  {
+    return data.length == 0;
+  }
+
+if(typeof(data.length) != 'undefined')
+{
+  if(/^[\s]*$/.test(data.toString()))
+  {
+    return true;
+  }
+  return data.length == 0;
+}
+
+  var count = 0;
+  for(var i in data)
+  {
+    if(data.hasOwnProperty(i))
+    {
+      count ++;
+    }
+  }
+  return count == 0;
+}
