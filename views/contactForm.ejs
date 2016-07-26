@@ -8,8 +8,10 @@
 <% include partials/template/header.ejs %>
 	<section class="layout">
 		<div class="primary">
-			<% if(noComment) { %>
+			<% if(user === "") { %>
+
 			<% include partials/content/noComment.ejs %>
+			
 			<% } else { %>
 			<% include partials/content/formReply.ejs %>
 			<% } %>
