@@ -8,8 +8,11 @@
 <% include partials/template/header.ejs %>
 	<section class="layout">
 		<div class="primary">
+			<% if(noComment) { %>
+			<% include partials/content/noComment.ejs %>
+			<% } else { %>
 			<% include partials/content/formReply.ejs %>
-		
+			<% } %>
 		</div><!-- primary -->
 		<aside class="secondary">
 

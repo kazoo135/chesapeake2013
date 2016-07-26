@@ -74,18 +74,28 @@ router.get('/contact', function(req, res){
 	})
 })
 
+// counter used to track comments
+var counter = 0; 
 router.post('/contactForm', urlEncodedParser, function(req, res){
 	var firstname = req.body.firstname;
 	var lastname = req.body.lastname;
 	var email = req.body.email;
 	var comment = req.body.comments; 
-	var body = firstname + '\n' + lastname + '\n' + email + '\n' + comment;
 
-	console.log("The body var contains: \n" + body );	
+	var body = firstname + '\n' + lastname + '\n' + email + '\n' + comment + '\n';
+
+	if(body){
+	counter++;
+	var user = '';	
+ 	user += "User: " + counter + '\n' + body;
+	console.log("The body var contains: \n" + user );	
+	fs.appendFileSync('public/data.txt', user, encoding="utf-8");		
+	}
 
 	res.render('contactForm', {
 		title: 'Post Reply',
-		page: 'formReply'
+		page: 'formReply',
+		noComment: body
 	})
 
 });
