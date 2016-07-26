@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var appdata = require('../data.json');
 var bodyParser = require('body-parser');
+var fs = require('fs');
 
 var urlEncodedParser = bodyParser.urlencoded({extended: true});
 
@@ -73,7 +74,9 @@ router.get('/contact', function(req, res){
 	})
 })
 
-router.post('/contactForm', urlEncodedParser, function(req, res){
+// counter used to track comments
+var counter = 0; 
+router.post('/contactForm', urlEncodedParser, function(req, res, next){
 	var firstname = req.body.firstname;
 	var lastname = req.body.lastname;
 
@@ -81,14 +84,24 @@ router.post('/contactForm', urlEncodedParser, function(req, res){
 	console.log("The firstname is: " + firstname + "\n" +
 		"Lastname is: " + lastname );	
 
+	var email = req.body.email;
+	var comment = req.body.comments; 
+	var body = firstname + '\n' + lastname + '\n' + email + '\n' + comment + '\n';
+	var user = "";
+
+	if(body){
+	counter++;	
+ 	user += "User: " + counter + '\n' + body;
+	console.log("The body var contains: \n" + user + "The body var is : " + body);	
+	fs.appendFileSync('public/data.txt', user, encoding="utf-8");
+	}
+	
 	res.render('contactForm', {
 		title: 'Post Reply',
-		page: 'formReply'
-	})
-
+		page: 'formReply',
+		noComment: body
+	}); 
 });
-
-
 
 
 
