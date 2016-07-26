@@ -81,19 +81,20 @@ router.post('/contactForm', urlEncodedParser, function(req, res, next){
 	var lastname = req.body.lastname;
 	var email = req.body.email;
 	var comment = req.body.comments; 
-
 	var body = firstname + '\n' + lastname + '\n' + email + '\n' + comment + '\n';
+	var user = "";
 
-	counter++;
-	var user = "";	
+	if(body){
+	counter++;	
  	user += "User: " + counter + '\n' + body;
-	console.log("The body var contains: \n" + user );	
+	console.log("The body var contains: \n" + user + "The body var is : " + body);	
 	fs.appendFileSync('public/data.txt', user, encoding="utf-8");
+	}
 	
 	res.render('contactForm', {
 		title: 'Post Reply',
 		page: 'formReply',
-		noComment:user
+		noComment: body
 	}); 
 });
 
