@@ -87,7 +87,7 @@ router.post('/contactForm', urlEncodedParser, function(req, res, next){
 
 	
 	if( empty(req.body.email)){
-		console.log(req.body);
+		//console.log(req.body);
 		next('route');	
 
 	}else{

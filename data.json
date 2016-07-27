@@ -21,10 +21,10 @@
 			"description": "<p>As a writer, Tim is best known for his work on ‘The Wright Brother, A Space Odyssey’. He has a wonderful eye for detail and historical accuracy as well as making a mean plate of pasta.</p><p>With his focus consistently on his writing Tim earns his keep by working as a server at some of New Jersery’s finest restaurants. Though his palette is broad he is partial to the cuisine from Southern Italy and Northern France. Both of these allow him to assist his customers in making the best wine pairings for their meal.</p>",
 			"photos": ["Tim_Miller_01_tn.jpg","Tim_Miller_02_tn.jpg", "Tim_Miller_03_tn.jpg"]
 		},{
-			"title": "Second Mate",
+			"title": "Third Mate",
 			"name": "Mark Caruso",
 			"shortname": "Mark_Caruso",
-			"summary": "Mark weighed in at 180lbs and was the second second mate on the trip.",
+			"summary": "Mark weighed in at 180lbs and was the third mate on the trip.",
 			"description": "<p>Traveling from New York City, Mark joined the crew in port after not having seen Captain Joe for more than three years. Mark has spent many years advocating for quality music education in the NYC Public Schools and first met Captain Joe while studying Dalcroze Eurythmics together at the Julliard School.</p><p>While still an advocate for Dalcroze, Mark has recently decided to pursue his passion for Mathematics and Science by working on yet another degree. This time not in the arts but in Computer Science. He currently spends the majority of his time reading textbooks and technical documents related to coding in a variety of different languages. When he isn’t reading about the topic he is actually doing the work. In fact, this little site is something he cooked up in order to learn alittle about working with NodeJS, Express and the Express templating engine EJS. </p>",
 			"photos":["Mark_Caruso_01_tn.jpg","Mark_Caruso_02_tn.jpg","Mark_Caruso_03_tn.jpg"]
 		}],
