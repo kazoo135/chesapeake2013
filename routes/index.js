@@ -10,10 +10,11 @@ var urlEncodedParser = bodyParser.urlencoded({extended: true});
 router.get('/', function(req, res){
 	var myPhotos = [];
 	var myCrew = [];
-	myCrew = appdata.crew;
+	//myCrew = appdata.crew;
 
 	appdata.crew.forEach(function(item){
 		myPhotos = myPhotos.concat(item.photos);
+		myCrew = myCrew.concat(item);
 	})
 	res.render('index', {
 		title: 'Home',

@@ -1,7 +1,7 @@
 <article class="crewlist" >
 	<section class="layout">
 		<div class="crew">
-		<% for( i=0; i < crew.length; i++){ %>
+		<% for( var i = 0; i < crew.length; i++){ %>
 		<article class="crew-member">
 			<h3><%= crew[i].title %> <span class="small">
 			<a href="/crew/<%= crew[i].shortname %>"><%= crew[i].name %></a>
