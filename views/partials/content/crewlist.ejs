@@ -2,7 +2,7 @@
 	<section class="layout">
 		<div class="crew">
 		<% crew.forEach(function(item){ %>
-		<article class="artist">
+		<article class="crew-member">
 			<h3><%= item.title %> <span class="small">
 			<a href="/crew/<%= item.shortname %>"><%= item.name %></a>
 		</span></h3>
@@ -11,7 +11,7 @@
 		<img class="crew" src="/images/crew/<%= item.shortname %>_tn.jpg"></a>
 			<% if( page != 'home'){ %>
 				<% if(page === 'crewList'){ %>
-					<%= item.summary %>
+					<%- item.summary %>
 			<% }else{ %>
 				<%- item.description %>
 			<% } %>

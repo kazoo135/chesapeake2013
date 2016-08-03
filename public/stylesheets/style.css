@@ -144,7 +144,7 @@ footer {
 }
 
 .crew h3 {
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 5px;
   border-bottom: 1px dotted #819090;
   margin-bottom: 5px;
@@ -376,16 +376,17 @@ header .navigation ul.nav li:hover a {
     opacity: 1;
   }
 
-  .home .crewlist .artist {
+  .home .crewlist .crew-member {
     width: 24.20339%;
     float: left;
     margin-right: 0.69492%;
   }
 
-  .home .crewlist .artist:nth-of-type(3) {
+  .home .crewlist .crew-member:nth-of-type(3) {
     width: 24.20339%;
     float: right;
     margin-right: 0;
+
   }
 }
 
@@ -427,9 +428,16 @@ header .navigation ul.nav li:hover a {
   }
 }
 
-article.artist {
-  padding-bottom: 65px; 
+article .crew-member h3{
+  padding-top: 20px;
+  padding-bottom: 10px; 
 }
+
+article .crew-member p{
+  margin-bottom: 20px; 
+}
+
+
 
 
 /* Contact form styles */
