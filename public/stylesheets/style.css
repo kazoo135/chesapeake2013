@@ -388,6 +388,16 @@ header .navigation ul.nav li:hover a {
     margin-right: 0;
 
   }
+
+article .crew-member{
+  margin-top: 15px;
+  margin-bottom: 70px; 
+  padding-bottom: 20px; 
+}
+
+article .crew-member:nth-child(4){
+  margin-top: 30px; 
+  padding-top: 30px; 
 }
 
 @media (max-width: 47em) {
@@ -427,17 +437,6 @@ header .navigation ul.nav li:hover a {
     padding-right: 0;
   }
 }
-
-article .crew-member h3{
-  padding-top: 20px;
-  padding-bottom: 10px; 
-}
-
-article .crew-member p{
-  margin-bottom: 20px; 
-}
-
-
 
 
 /* Contact form styles */
