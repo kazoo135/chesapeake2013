@@ -1,24 +1,24 @@
 <article class="crewlist" >
 	<section class="layout">
 		<div class="crew">
-		<% crew.forEach(function(item){ %>
+		<% for( i=0; i < crew.length; i++){ %>
 		<article class="crew-member">
-			<h3><%= item.title %> <span class="small">
-			<a href="/crew/<%= item.shortname %>"><%= item.name %></a>
+			<h3><%= crew[i].title %> <span class="small">
+			<a href="/crew/<%= crew[i].shortname %>"><%= crew[i].name %></a>
 		</span></h3>
 		<p>
-		<a href="/crew/<%= item.shortname %>">
-		<img src="/images/crew/<%= item.shortname %>_tn.jpg"></a>
+		<a href="/crew/<%= crew[i].shortname %>">
+		<img src="/images/crew/<%= crew[i].shortname %>_tn.jpg"></a>
 			<% if( page != 'home'){ %>
-				<% if(page === 'crewList'){ %>
-					<%- item.summary %>
+				<% if(page === 'crewDetails'){ %>
+					<%- crew[i].summary %>
 			<% }else{ %>
-				<%- item.description %>
+				<%- crew[i].description %>
 			<% } %>
 		<% } %>
 		</p>
 		</article>
-			<% }) %>
+			<% } %>
 		</div>
 	</section><!--layout -->
 </article><!-- article -->
