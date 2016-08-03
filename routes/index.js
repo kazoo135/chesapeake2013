@@ -96,7 +96,7 @@ router.post('/contactForm', urlEncodedParser, function(req, res, next){
  	user += "User: " + counter + '\n' + body;
 	console.log("The body var contains: \n" + user + "The body var is : " + body);	
 	fs.appendFileSync('public/data.txt', user, encoding="utf-8");
-	console.log(req.body);
+	//console.log(req.body);
 		res.render('contactForm', {
 			title: 'Post Reply',
 			page: 'formReply'
