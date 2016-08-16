@@ -1,4 +1,4 @@
-<article class="crewlist" >
+<article class="crewlist" id="ourcrewlist">
 	<section class="layout">
 		<div class="crew">
 		<% for( var i = 0; i < crew.length; i++){ %>
@@ -11,9 +11,9 @@
 		<img src="/images/crew/<%= crew[i].shortname %>_tn.jpg"></a>
 			<% if( page != 'home'){ %>
 				<% if(page === 'crewDetails'){ %>
-					<%- crew[i].summary %>
+					<%- crew[i].description %>
 			<% }else{ %>
-				<%- crew[i].description %>
+				<%- crew[i].summary %>
 			<% } %>
 		<% } %>
 		</p>
