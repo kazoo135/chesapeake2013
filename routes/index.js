@@ -37,7 +37,7 @@ router.get('/crew', function(req, res){
 		title: 'Crew',
 		photos: myPhotos,
 		crew: myCrew,
-		page: 'theCrew'
+		page: 'crewlist'
 	});
 });
 
