@@ -300,7 +300,7 @@ header .navigation ul.nav li:hover a {
       font-family: Bree Serif, serif;
   }
 
-  .home .crewlist {
+  .home .crewslist {
     text-align: center;
     background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0d3340), color-stop(100%, #042029));
     background: -webkit-linear-gradient(top, #0d3340, #042029);
@@ -312,38 +312,38 @@ header .navigation ul.nav li:hover a {
     padding-bottom: 10px;
   }
 
-  .home .crewlist h1, .home .crewlist h2, .home .crewlist h3, .home .crewlist h4, .home .crewlist h5, .home .crewlist h6 {
+  .home .crewslist h1, .home .crewslist h2, .home .crewslist h3, .home .crewslist h4, .home .crewslist h5, .home .crewslist h6 {
     text-shadow: none;
     border-bottom: none !important;
   }
 
-  .home .crewlist h1 {
+  .home .crewslist h1 {
     font-size: 2.6rem;
     line-height: 1em;
     color: #738a05;
   }
 
-  .home .crewlist h3 {
+  .home .crewslist h3 {
     color: #d69a08;
     line-height: .9em;
   }
 
-  .home .crewlist .small {
+  .home .crewslist .small {
     padding-top: .4em !important;
     line-height: 1em;
     color: #2390b3;
   }
 
-  .home .crewlist .small a {
+  .home .crewslist .small a {
     color: #2390b3;
     text-decoration: none;
   }
 
-  .home .crewlist .small a:hover {
+  .home .crewslist .small a:hover {
     text-decoration: underline;
   }
 
-  .home .crewlist img.crew {
+  .home .crewslist img.crew {
     float: none;
     width: 30%;
     max-width: 170px;
@@ -355,11 +355,11 @@ header .navigation ul.nav li:hover a {
     border-radius: 50%;
   }
 
-  .home .crewlist .small {
+  .home .crewslist .small {
     display: block;
   }
 
-  .home .crewlist p:nth-of-type(2) {
+  .home .crewslist p:nth-of-type(2) {
     font-weight: 200 !important;
     text-align: left;
     font-size: .8em;
@@ -371,34 +371,34 @@ header .navigation ul.nav li:hover a {
     opacity: 0;
   }
 
-  .home .crewlist:hover p:nth-of-type(2) {
+  .home .crewslist:hover p:nth-of-type(2) {
     line-height: 1.5em;
     opacity: 1;
   }
 
-  .home .crewlist .crew-member {
+  .home .crewslist .crew-member {
     width: 24.20339%;
     float: left;
     margin-right: 0.69492%;
   }
 
-  .home .crewlist .crew-member:nth-of-type(3) {
+  .home .crewslist .crew-member:nth-of-type(3) {
     width: 24.20339%;
     float: right;
     margin-right: 0;
   }
-.home .crewlist .crew .crew-member h3{
+.home .crewslist .crew .crew-member h3{
   margin-top: 5px;
   text-align: left;
 }
 
-.crewlist article .crew-member{
+.crewslist article .crew-member{
   margin-top: 0;
   margin-bottom: 65px;
 }
 
 
-.crewlist article .crew-member:nth-child(4){
+.crewslist article .crew-member:nth-child(4){
   margin-top: 25px; 
   padding-top: 30px; 
   margin-bottom: 0; 
@@ -409,7 +409,7 @@ header .navigation ul.nav li:hover a {
 
 
 @media (max-width: 47em) {
-   .home .crelist{
+  .home .crewslist {
     display: none;
   }
 }
