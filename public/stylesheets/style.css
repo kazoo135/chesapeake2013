@@ -471,7 +471,7 @@ input[type=text]{
 
 button[type=submit]{
   margin-top: 10px; 
-  margin-left: 12em;
+  margin-left: 0;
   width: 10em; 
   cursor: pointer;
   border: 1px solid #999;
