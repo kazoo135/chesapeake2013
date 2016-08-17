@@ -512,9 +512,16 @@ input:focus, textarea:focus{
 
 
 @media (max-width: 47em){
-  article.crewslist:nth-child(2){
+  .home article.crewslist:nth-child(2){
     display: none;
   }
+
+  .layout .secondary{
+    /*clear:both; */
+    float:left;
+    width: 100%; 
+  }
+
 }
 
 @media (min-width: 47em) {
@@ -523,6 +530,7 @@ input:focus, textarea:focus{
     float: left;
     margin-right: 1.69492%;
   }
+}
 
 
 @media (min-width: 30em) {
