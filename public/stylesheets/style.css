@@ -408,8 +408,8 @@ header .navigation ul.nav li:hover a {
 
 
 
-@media only screen and (max-width: 600px) {
-  .home .crewlist {
+@media (max-width: 47em) {
+   .home .crelist{
     display: none;
   }
 }
