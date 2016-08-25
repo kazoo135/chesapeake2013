@@ -30,3 +30,6 @@ benchmarks/graphs
 *.txt
 *.doc
 *.docx
+
+# Not Images
+public/images
